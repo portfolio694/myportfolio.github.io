@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Fixes the background so it doesn't scroll with the content */
+    color: #333;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 00px; /* Rounded corners */
+}
+
+#home {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    text-align: center;
+    padding: 4em 2em;
+}
+
+#projects .project {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    text-align: center;
+    padding: 4em 2em;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#about {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+.about-content p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    line-height: 1.6;
+}

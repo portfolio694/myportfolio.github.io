@@ -3,106 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shane Steve - Portfolio</title>
+    <title>Shane Steve | Cybersecurity Portfolio</title>
+
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I’m Shane Steve, an enthusiastic beginner in cybersecurity, passionate about understanding attacker techniques and strengthening defenses through hands-on security analysis.</p>
-    </section>
+<header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="steve.jpg" alt="Shane Steve" class="profile-photo">
-        <div class="about-content">
-            <p>Hello! I am Shane Steve, a dedicated and motivated Cybersecurity Analyst and aspiring Penetration Tester at the beginning of my professional career. My objective is to secure a role in cybersecurity where I can apply my technical knowledge to identify vulnerabilities, strengthen system defenses, and contribute to protecting organizational assets against cyber threats.
-
-I hold a Bachelor of Technology in Artificial Intelligence and Data Science from Saranathan College of Engineering, Trichy. My technical skill set includes networking fundamentals, Linux operating systems, Python, SQL, HTML, CSS, and foundational ethical hacking concepts, with hands-on interest in vulnerability assessment, penetration testing, and red team methodologies. I am particularly passionate about understanding attacker mindsets and improving system security through proactive defense strategies.
-
-Beyond my technical interests, I enjoy traveling and exploring diverse cultures, which enhances my adaptability, problem-solving skills, and creative thinking—qualities that are essential in the ever-evolving field of cybersecurity.</p>
-        </div>
-    </section>
-
-   <section id="projects">
-    <h2>Projects</h2>
-
-    <!-- Project 1 -->
-    <div class="project">
-        <h3>Professional OWASP Top 10 Vulnerability Scanner</h3>
-
-        <p><strong>Python-Based Automated Web Application Security Assessment Tool</strong></p>
-
-        <p>
-            Modern web applications are continuously exposed to security threats, making regular vulnerability assessments essential for identifying and mitigating potential risks before they can be exploited. To address this challenge, I developed a professional Python-based vulnerability scanner that automates the detection of common web application security issues aligned with the OWASP Top 10 framework.
-        </p>
-
-        <p>
-            The scanner performs comprehensive security testing by identifying vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), Command Injection, Server-Side Request Forgery (SSRF), Local File Inclusion (LFI), Directory Traversal, Insecure Direct Object References (IDOR), Open Redirects, CSRF weaknesses, and Security Misconfigurations. It supports authenticated scanning using session cookies, configurable timeout and worker settings, multi-threaded scanning for improved performance, and color-coded severity classification with CVSS scoring.
-        </p>
-
-        <p>
-            The application generates professional PDF, HTML, and JSON reports for security assessments. Developed using Python, Requests, urllib3, FPDF2, Matplotlib, JSON, and multi-threading, this project demonstrates practical experience in vulnerability assessment, web application security testing, and secure software development. This tool is intended for educational purposes and authorized security testing only.
-        </p>
-
-        <a href="https://github.com/steve3301/vulnerability-scanner" target="_blank">View Project</a>
+    <div class="logo">
+        Shane Steve
     </div>
 
-    <!-- Project 2 -->
-    <div class="project">
-        <h3>Deep Learning-Based System for Crop Pest and Weed Identification</h3>
+    <nav>
 
-        <p><strong>Vision Transformer (ViT)-Based Deep Learning for Plant Health Classification</strong></p>
+        <a href="#home">Home</a>
 
-        <p>
-            In precision agriculture, timely and accurate identification of pests and weeds is critical for maximizing crop productivity and minimizing economic losses. Traditional methods such as manual inspection or rule-based image analysis are often labor-intensive, slow, and prone to human error.
-        </p>
+        <a href="#about">About</a>
 
-        <p>
-            To address these challenges, I developed a Vision Transformer (ViT)-based deep learning solution for classifying plant images into pest-infected, weed-dominated, and healthy crops. The pretrained ViT-Base-16 model was fine-tuned using data augmentation techniques including color jitter, Gaussian blur, and random rotation. The final model achieved a test accuracy of 91.77%, demonstrating excellent performance for automated crop health monitoring.
-        </p>
+        <a href="#skills">Skills</a>
 
-        <a href="https://github.com/steve3301/Deep_Learning_Based_System_for_Crop-_Pest_and_Weed_Identification.git" target="_blank">View Project</a>
-    </div>
+        <a href="#projects">Projects</a>
 
-    <!-- Project 3 -->
-    <div class="project">
-        <h3>Recipe Delight</h3>
+        <a href="#contact">Contact</a>
 
-        <p><strong>Recipe Management Web Application</strong></p>
+    </nav>
 
-        <p>
-            Recipe Delight is a recipe management application that helps users discover, organize, and share recipes from various cuisines. It provides detailed cooking instructions, ingredient lists, and personalized recommendations to make cooking easier for both beginners and experienced cooks.
-        </p>
+</header>
 
-        <p>
-            The application focuses on delivering an intuitive user experience while allowing users to explore new dishes, save their favorite recipes, and access cooking tips through a simple and user-friendly interface.
-        </p>
 
-        <a href="https://github.com/steve3301/recipy_inlustro_prj" target="_blank">View Project</a>
-    </div>
+<!-- HOME -->
+
+<section id="home">
+
+<div class="home-content">
+
+<img src="steve.jpg" class="profile-photo">
+
+<h1>Hi, I'm <span>Shane Steve</span></h1>
+
+<h2>Cybersecurity Analyst</h2>
+
+<p>
+Passionate about Penetration Testing, Web Application Security,
+Linux, Networking and Ethical Hacking.
+</p>
+
+<div class="buttons">
+
+<a href="resume.pdf" class="btn">
+<i class="fa-solid fa-download"></i>
+Resume
+</a>
+
+<a href="https://github.com/steve3301" target="_blank" class="btn">
+<i class="fa-brands fa-github"></i>
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/shane-steve-a-79b8a52bb/" target="_blank" class="btn">
+<i class="fa-brands fa-linkedin"></i>
+LinkedIn
+</a>
+
+</div>
+
+</div>
 
 </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:shanesteve04@gmail.com">shanesteve04@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/shane-steve-a-79b8a52bb/" target="_blank">https://www.linkedin.com</a></p>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Shane Steve. All rights reserved.</p>
-    </footer>
+
+<!-- ABOUT -->
+
+<section id="about" data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>
+
+I am a Cybersecurity enthusiast with a strong interest in Penetration Testing,
+Web Application Security, Vulnerability Assessment and Networking.
+
+I completed my Bachelor's degree in Artificial Intelligence and Data Science and
+have built multiple cybersecurity projects to strengthen my practical skills.
+
+I enjoy solving security challenges, learning new attack techniques,
+and improving defensive security.
+
+</p>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" data-aos="fade-up">
+
+<h2>Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="card"><i class="fa-brands fa-linux"></i><h3>Linux</h3></div>
+
+<div class="card"><i class="fa-solid fa-network-wired"></i><h3>Networking</h3></div>
+
+<div class="card"><i class="fa-brands fa-python"></i><h3>Python</h3></div>
+
+<div class="card"><i class="fa-solid fa-database"></i><h3>SQL</h3></div>
+
+<div class="card"><i class="fa-solid fa-shield-halved"></i><h3>Burp Suite</h3></div>
+
+<div class="card"><i class="fa-solid fa-terminal"></i><h3>Nmap</h3></div>
+
+<div class="card"><i class="fa-solid fa-bug"></i><h3>OWASP Top 10</h3></div>
+
+<div class="card"><i class="fa-brands fa-git-alt"></i><h3>Git</h3></div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" data-aos="fade-up">
+
+<h2>Projects</h2>
+
+<div class="project-card">
+
+<h3>Professional OWASP Top 10 Vulnerability Scanner</h3>
+
+<p>
+
+Python-based web vulnerability scanner capable of detecting
+SQL Injection, XSS, SSRF, LFI, IDOR,
+Command Injection, CSRF, Open Redirects and more.
+
+Generates PDF, HTML and JSON security reports.
+
+</p>
+
+<a href="https://github.com/steve3301/vulnerability-scanner" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+
+<div class="project-card">
+
+<h3>Deep Learning Based Crop Pest & Weed Identification</h3>
+
+<p>
+
+Vision Transformer based deep learning model for automated
+plant health classification achieving 91.77% accuracy.
+
+</p>
+
+<a href="https://github.com/steve3301/Deep_Learning_Based_System_for_Crop-_Pest_and_Weed_Identification.git" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+
+<div class="project-card">
+
+<h3>Recipe Delight</h3>
+
+<p>
+
+Recipe management application allowing users
+to discover, save and share recipes.
+
+</p>
+
+<a href="https://github.com/steve3301/recipy_inlustro_prj" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+shanesteve04@gmail.com
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-linkedin"></i>
+
+linkedin.com/in/shane-steve-a-79b8a52bb
+
+</p>
+
+</section>
+
+
+<footer>
+
+© 2026 Shane Steve | Cybersecurity Portfolio
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init();
+
+</script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
